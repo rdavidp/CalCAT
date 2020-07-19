@@ -4,9 +4,7 @@ author: "Modeling Team"
 date: "4/30/2020"
 output: html_document
 ---
-
 ```{r setup, include=FALSE}
-
 # Copyright 2020, State of California, Department of Public Health
 
 ###########################################################
@@ -46,7 +44,7 @@ sapply(list.files("R", full.names = T), source)
 ############         PARAMTERS TO CHANGE        ###############
 ###############################################################
 
-state_name <- "California"
+state_name <- "Alaska"
 
 counties <- get_counties()
 state_abbrv <- get_state_abbrv(State = state_name)
